@@ -2,7 +2,7 @@ import axios, { AxiosRequestConfig } from "axios";
 import { BASE_URL } from "../constants";
 
 export function getAPIInstance() {
-  const API = axios.create({ baseURL: BASE_URL }); // Creating an Axios Instance for API calls.
+  const API = axios.create({ baseURL: 'https://social-media-backend-3cop.onrender.com' }); // Creating an Axios Instance for API calls.
 
   // Attach the token from the localStorage to req.headers.authorization before any API calls.
   API.interceptors.request.use((req: AxiosRequestConfig) => {

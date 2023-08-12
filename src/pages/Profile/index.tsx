@@ -35,7 +35,6 @@ const Profile = () => {
           <div className="cover-pic-container relative h-96">
             <img
               src={profile.data?.cover_picture}
-              alt="Cover"
               className="w-full h-96 object-cover rounded-b-md"
             />
             {user._id === id && (
@@ -78,7 +77,12 @@ const Profile = () => {
               profile.data?.fullName
             )}
           </h1>
-          {user._id !== id && <FollowButton userId={id} currentUserId={currentUser?.data?._id as string} />}
+          {user._id !== id && (
+            <FollowButton
+              userId={id}
+              currentUserId={currentUser?.data?._id as string}
+            />
+          )}
           {user._id === id && !user.details.bio && (
             <span
               className="text-fb font-bold mt-4 inline-block cursor-pointer"
