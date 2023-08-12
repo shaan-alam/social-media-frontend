@@ -1,0 +1,15 @@
+.profile-pic-edit-btn {
+  display: none;
+}
+
+.profile-pic-container:hover .profile-pic-edit-btn {
+  display: block;
+}
+
+.cover-pic-edit-btn {
+  display: none;
+}
+
+.cover-pic-container:hover .cover-pic-edit-btn {
+  display: block;
+}

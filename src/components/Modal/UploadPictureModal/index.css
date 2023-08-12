@@ -1,0 +1,4 @@
+#editable:empty::before {
+  content: attr(data-placeholder);
+  color: #aaa;
+}
