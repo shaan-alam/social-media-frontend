@@ -136,7 +136,7 @@ const SignUp = () => {
               </Link>
             </div>
             <div className="h-1 w-full my-4 bg-gray-200"></div>
-            <GoogleAuth />
+            {/* <GoogleAuth /> */}
           </form>
         </div>
       </div>

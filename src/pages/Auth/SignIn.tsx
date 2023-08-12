@@ -107,7 +107,7 @@ const SignIn = () => {
               </Link>
             </div>
             <div className="h-1 w-full my-8 bg-gray-200"></div>
-            <GoogleAuth />
+            {/* <GoogleAuth /> */}
           </form>
         </div>
       </div>

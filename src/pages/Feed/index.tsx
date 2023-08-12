@@ -20,7 +20,7 @@ const Feed = () => {
   return (
     <div className="bg-gray-100">
       <div className="container sm:w-3/4 mx-auto flex">
-        /
+        
         <div className="wall lg:mr-2 w-full">
           <NewPost />
           <div className="posts my-4 rounded-lg">
